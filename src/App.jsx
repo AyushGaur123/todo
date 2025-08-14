@@ -68,8 +68,17 @@ function App() {
     <>
      
 
-      <div className=" flex justify-center ">
-        <div className="box w-[600px] border-2  h-[600px] mt-8 rounded-2xl">
+      <div >
+        <nav>
+          <ul className='flex bg-purple-600 gap-4 p-4'>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+        <div className="flex justify-center">
+        <div className="box w-[600px] border-2  h-[600px] mt-8 rounded-2xl ">
           <div className="box1 mb-6 mt-6 p-[12px] text-[30px] flex font-serif border-2 ">Just do it</div>
           <div className='   todos  text-[23px]'>
             
@@ -98,11 +107,13 @@ function App() {
                   <button onClick={(e) => { Delete(e, item.id) }}>delete</button>
                 </div>
               </div>
+             
 
             })}
           </div>
         </div>
       </div >
+      </div>
     </>
   )
 }
