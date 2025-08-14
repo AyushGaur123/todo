@@ -82,7 +82,7 @@ function App() {
           <div className="box1 mb-6 mt-6 p-[12px] text-[30px] flex font-serif border-2 ">Just do it</div>
           <div className='   todos  text-[23px]'>
             
-            <div>Add to todo</div>
+            <div>ADD A TASK TO YOUR PROJECT </div>
             <div className='flex'>
             <div><input type="text" onChange={change} value={todo} className='hi border-2' /></div>
            
